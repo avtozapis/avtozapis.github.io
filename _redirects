@@ -1,0 +1,3 @@
+# SPA-фолбэк для глубоких ссылок (Cloudflare Pages)
+# /s/{slug}/ — оболочка студии (index.html общий, tenant определяется маршрутом)
+/*  /index.html  200

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Запись онлайн</title>
+    <script>
+      // GitHub Pages не умеет SPA-fallback: глубокие ссылки (/s/…/booking, /s/…/owner/)
+      // отдают эту страницу. Сохраняем путь и уходим на корень — App.tsx
+      // (RootRedirect) восстановит маршрут клиентски.
+      var p = location.pathname + location.search
+      location.replace('/?__route=' + encodeURIComponent(p))
+    </script>
+  </head>
+  <body></body>
+</html>
